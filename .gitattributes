@@ -1,0 +1,2 @@
+*.pbxproj -text
+ios/Pods/Anyline/AnylineSDK_iOS_4/Framework/Anyline.framework/Anyline filter=lfs diff=lfs merge=lfs -text

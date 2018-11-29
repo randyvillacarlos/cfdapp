@@ -1,0 +1,1 @@
+../../../../../node_modules/anyline-ocr-react-native-module/ios/ALRoundedView.h

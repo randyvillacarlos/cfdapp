@@ -1,0 +1,60 @@
+PODS:
+  - Anyline (4)
+  - AnylineReact (4.0.0):
+    - Anyline (~> 4)
+    - React
+  - DoubleConversion (1.1.6)
+  - React (0.57.4):
+    - React/Core (= 0.57.4)
+  - React/Core (0.57.4):
+    - yoga (= 0.57.4.React)
+  - React/DevSupport (0.57.4):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.57.4)
+  - React/RCTBlob (0.57.4):
+    - React/Core
+  - React/RCTNetwork (0.57.4):
+    - React/Core
+  - React/RCTText (0.57.4):
+    - React/Core
+  - React/RCTWebSocket (0.57.4):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.57.4.React)
+
+DEPENDENCIES:
+  - AnylineReact (from `../node_modules/anyline-ocr-react-native-module/ios`)
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/Yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Anyline
+
+EXTERNAL SOURCES:
+  AnylineReact:
+    :path: "../node_modules/anyline-ocr-react-native-module/ios"
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/Yoga"
+
+SPEC CHECKSUMS:
+  Anyline: cde648526d9c14c041500d27407021b6c1940b24
+  AnylineReact: ae41c203921b475043cc79685caadf46e03f9a75
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: d862afa3026e8d5f5e3f9f7a43ba43351a22d5c5
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Anyline/AnylineSDK_iOS_4/Framework"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Anyline" "${PODS_ROOT}/Headers/Public/AnylineReact" "${PODS_ROOT}/Headers/Public/DoubleConversion" "${PODS_ROOT}/Headers/Public/React" "${PODS_ROOT}/Headers/Public/yoga"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AnylineReact" "${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion" "${PODS_CONFIGURATION_BUILD_DIR}/React" "${PODS_CONFIGURATION_BUILD_DIR}/yoga"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Anyline" -isystem "${PODS_ROOT}/Headers/Public/AnylineReact" -isystem "${PODS_ROOT}/Headers/Public/DoubleConversion" -isystem "${PODS_ROOT}/Headers/Public/React" -isystem "${PODS_ROOT}/Headers/Public/yoga"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AnylineReact" -l"DoubleConversion" -l"React" -l"c++" -l"stdc++" -l"yoga" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "Anyline" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CoreMedia" -framework "CoreMotion" -framework "JavaScriptCore" -framework "WebKit" -force_load "$(PODS_ROOT)/Anyline/AnylineSDK_iOS_4/Framework/Anyline.framework/Anyline"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
