@@ -2,7 +2,7 @@ project 'IC2SideKick.xcodeproj'
 platform :ios, '10'
 
 target 'IC2SideKick' do
-  pod 'React', :path => '../node_modules/react-native', :subspecs => ['Core', 'DevSupport', 'RCTText', 'RCTNetwork', 'RCTWebSocket']
+  pod 'React', :path => '../node_modules/react-native', :subspecs => ['Core', 'DevSupport', 'RCTText', 'RCTNetwork', 'RCTWebSocket', 'BatchedBridge']
   pod 'AnylineReact', path: '../node_modules/anyline-ocr-react-native-module/ios'
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/Yoga'
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
