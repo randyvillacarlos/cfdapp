@@ -65,7 +65,7 @@ class SideMenuContent extends Component {
         <SafeAreaView>
           <View style={styles.headerContainer}>
             <Text style={styles.headerText}>
-              {`IC2 SideKick`}
+              {`CFD Connect`}
             </Text>
           </View>
           <View style={styles.menusContainer}>

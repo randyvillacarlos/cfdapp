@@ -110,10 +110,10 @@ class Login extends Component {
         />
         <View style={styles.loginButtonContainer}>
           <RoundedButton
-            text="Continue with Facebook"
+            text="Login"
             textColor={green01}
             background={white}
-            handleOnPress={this.onFacebookPress}
+            handleOnPress={this._logIn}
           />
           <RoundedButton
             text="Create Account"
