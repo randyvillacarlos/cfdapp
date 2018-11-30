@@ -849,6 +849,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = C767WZAS5N;
+						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1491,6 +1492,8 @@
 			baseConfigurationReference = 3E6641A95153CC3494384003 /* Pods-IC2SideKick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = C767WZAS5N;
@@ -1509,6 +1512,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.IC2SideKick;
 				PRODUCT_NAME = IC2SideKick;
+				PROVISIONING_PROFILE_SPECIFIER = rnFlashCardsDist;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1518,6 +1522,8 @@
 			baseConfigurationReference = B758A9AA8E90A0A6C741C5E5 /* Pods-IC2SideKick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C767WZAS5N;
 				HEADER_SEARCH_PATHS = (
@@ -1535,6 +1541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.IC2SideKick;
 				PRODUCT_NAME = IC2SideKick;
+				PROVISIONING_PROFILE_SPECIFIER = rnFlashCardsDist;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
