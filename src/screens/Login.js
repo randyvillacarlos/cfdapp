@@ -24,9 +24,11 @@ class Login extends Component {
 
   _logIn(data) {
 
+    this.refs.Load.OpenLoad();
     this.props.navigator.push({
       id: 1,
     })
+    this.refs.Load.CloseLoad();
 
   }
 
